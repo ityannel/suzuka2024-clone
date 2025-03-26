@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="h-20 w-full bg-[#edd9c2] text-[#0a0147] flex margin-auto justify-between items-center px-10 shadow-md">
             <h1 className="text-2xl font-bold font-sans">Startup Hub Kosen</h1>
-            <div className="flex gap-5 items-center max-lg:hidden">
+            <div className="flex gap-5 items-center hidden lg:flex">
                 <ul className="flex gap-6 text-md font-semibold leading-6 font-sans">
                     <li><a href="https://community-kosen.prossell.online/">Home</a></li>
                     <li><a href="https://community-kosen.prossell.online/events#">Events</a></li>

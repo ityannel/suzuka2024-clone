@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+
+@font-face {
+  font-family: "TsunagiGothic";
+  src: url('/fonts/TsunagiGothic.ttf') format('truetype');
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,4 +31,8 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   cursor: url("/puroppi-kun.png"), auto;
+}
+
+.font-tsunagi{
+  font-family: "TsunagiGothic", sans-serif;
 }
